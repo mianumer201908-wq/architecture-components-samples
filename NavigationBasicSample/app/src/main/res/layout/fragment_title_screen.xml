@@ -27,7 +27,7 @@
     <!-- TODO: Update blank fragment layout -->
 
     <TextView
-        android:id="@+id/game_title"
+        android:id="@+id/_title"
         android:gravity="center_horizontal"
         android:layout_width="368dp"
         android:layout_height="81dp"
@@ -75,7 +75,7 @@
         app:layout_constraintBottom_toTopOf="@+id/play_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/game_title" />
+        app:layout_constraintTop_toBottomOf="@+id/_title" />
 
     <Button
         android:id="@+id/leaderboard_btn"

@@ -25,17 +25,17 @@ import androidx.navigation.Navigation
 
 
 /**
- * Shows a game over screen and a button to start over.
+ * Shows a  over screen and a button to start over.
  */
-class GameOver : Fragment() {
+class Over : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        val view = inflater.inflate(R.layout.fragment_game_over, container, false)
+        val view = inflater.inflate(R.layout.fragment__over, container, false)
 
         view.findViewById<View>(R.id.play_btn4).setOnClickListener {
-            Navigation.findNavController(view).navigate(R.id.action_game_over_to_match)
+            Navigation.findNavController(view).navigate(R.id.action__over_to_match)
         }
         return view
     }

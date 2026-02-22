@@ -72,8 +72,8 @@
             android:label="fragment_match"
             tools:layout="@layout/fragment_match">
         <action
-                android:id="@+id/action_match_to_in_game"
-                app:destination="@id/in_game"
+                android:id="@+id/action_match_to_in_"
+                app:destination="@id/in_"
                 app:popEnterAnim="@anim/slide_in_left"
                 app:popExitAnim="@anim/slide_out_right"
                 app:enterAnim="@anim/slide_in_right"
@@ -89,12 +89,12 @@
         <deepLink app:uri="www.example.com/user/{userName}" />
     </fragment>
     <fragment
-            android:id="@+id/in_game"
-            android:name="com.example.android.navigationsample.InGame"
-            android:label="Game"
-            tools:layout="@layout/fragment_in_game">
+            android:id="@+id/in_"
+            android:name="com.example.android.navigationsample.In"
+            android:label=""
+            tools:layout="@layout/fragment_in_">
         <action
-                android:id="@+id/action_in_game_to_resultsWinner"
+                android:id="@+id/action_in__to_resultsWinner"
                 app:destination="@id/results_winner"
                 app:popUpTo="@+id/match"
                 app:popUpToInclusive="false"
@@ -103,8 +103,8 @@
                 app:enterAnim="@anim/fade_in"
                 app:exitAnim="@anim/fade_out"/>
         <action
-                android:id="@+id/action_in_game_to_gameOver"
-                app:destination="@id/game_over"
+                android:id="@+id/action_in__to_Over"
+                app:destination="@id/_over"
                 app:popUpTo="@id/match"
                 app:popUpToInclusive="false"
                 app:popEnterAnim="@anim/slide_in_left"
@@ -127,11 +127,11 @@
                 app:popUpTo="@id/match"/>
     </fragment>
     <fragment
-            android:id="@+id/game_over"
-            android:name="com.example.android.navigationsample.GameOver"
-            android:label="fragment_game_over"
-            tools:layout="@layout/fragment_game_over">
-        <action android:id="@+id/action_game_over_to_match"
+            android:id="@+id/_over"
+            android:name="com.example.android.navigationsample.Over"
+            android:label="fragment__over"
+            tools:layout="@layout/fragment__over">
+        <action android:id="@+id/action__over_to_match"
                 app:popUpTo="@id/match"/>
     </fragment>
 </navigation>

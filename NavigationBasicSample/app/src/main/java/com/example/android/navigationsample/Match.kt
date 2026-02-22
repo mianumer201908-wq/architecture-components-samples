@@ -33,7 +33,7 @@ class Match : Fragment() {
         val view = inflater.inflate(R.layout.fragment_match, container, false)
 
         view.findViewById<View>(R.id.play_btn3).setOnClickListener {
-            Navigation.findNavController(view).navigate(R.id.action_match_to_in_game)
+            Navigation.findNavController(view).navigate(R.id.action_match_to_in_)
         }
         return view
     }

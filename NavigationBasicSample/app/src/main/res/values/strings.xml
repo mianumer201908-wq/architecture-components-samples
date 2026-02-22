@@ -19,7 +19,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="game_over">Game Over</string>
+    <string name="_over"> Over</string>
     <string name="try_again">Try Again?</string>
     <string name="question_1">How many kilometers are in a marathon?</string>
     <string name="answer_1">22</string>
